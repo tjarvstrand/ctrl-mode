@@ -26,8 +26,6 @@
     map)
   "Keymap for EDTS.")
 
-(global-set-key (kbd "<return>") 'ctrl-mode-toggle)
-
 (defun ctrl-mode-toggle ()
   (interactive)
   (if (minibufferp (current-buffer))
